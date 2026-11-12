@@ -36,3 +36,15 @@ def open_win_form(parent: tk.Tk):
         .grid(row=3, column=0, pady=12)
     ttk.Button(frm, text="Cerrar", command=win.destroy)\
         .grid(row=3, column=1, sticky="e", pady=12)
+
+
+
+# Cambié el título de la ventana a "Perfil del niño".
+#- Reemplacé los campos originales por los datos que necesita la app:
+# - Nombre del niño
+  #- Edad
+  #- Nombre de mamá/papá
+  #- Teléfono de contacto
+  #- Escuela
+#- Cambié el texto del botón de guardar a "Guardar perfil".
+#- Agregué un mensaje de confirmación cuando el perfil se guarda.
