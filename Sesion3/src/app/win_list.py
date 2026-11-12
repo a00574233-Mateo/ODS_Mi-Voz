@@ -38,3 +38,10 @@ def open_win_list(parent: tk.Tk):
     ttk.Button(frm, text="Limpiar", command=limpiar).grid(row=3, column=1, sticky="ew", pady=4)
 
     ttk.Button(frm, text="Cerrar", command=win.destroy).grid(row=4, column=0, columnspan=2, pady=10, sticky="e")
+
+
+
+#- Cambié el título de la ventana a "Frases favoritas".
+#- La lista ahora muestra las frases que más usa el niño, por ejemplo "Tengo hambre", "Quiero ir al baño" y "Quiero a mi mamá".
+#- Agregué un botón para agregar una frase nueva a la lista.
+#- Agregué un botón para quitar la frase seleccionada.
