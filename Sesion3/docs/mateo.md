@@ -1,4 +1,4 @@
-# Cambios en win_canvas.py - Mateo
+# Cambios en win_canvas.py - Mateo Sanchez
 
 ## Cambios realizados
 - Cambié el color de la gráfica de línea a verde (color="green").
