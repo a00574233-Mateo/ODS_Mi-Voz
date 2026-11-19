@@ -1,0 +1,30 @@
+1. ODS elegido
+
+ODS 10 - Reducción de las desigualdades, meta 10.2: promover la inclusión social de todas las personas, independientemente de su edad, sexo, discapacidad u otra condición. Se relaciona también con el ODS 4 - Educación de calidad (meta 4.5), que busca el acceso igualitario a la educación para personas con discapacidad.
+
+2. Problema específico
+
+Muchos niños con autismo, síndrome de Down u otras condiciones no pueden expresarse con palabras. No logran decir cosas básicas como “tengo hambre”, “me duele” o “quiero ir al baño”, lo que les genera frustración, dificulta su participación en clase y obliga a los adultos a adivinar lo que necesitan. Las alternativas actuales son tarjetas de papel que se pierden o aplicaciones costosas y en inglés.
+
+Proponemos Mi Voz, una aplicación en Python con interfaz en PySimpleGUI que muestra un tablero de pictogramas por categorías. El niño selecciona pictogramas y la aplicación arma una frase para que el adulto la lea. Los pictogramas se obtienen de la API pública de ARASAAC y con pandas se registra su uso para que padres y maestros conozcan las necesidades más frecuentes del niño.
+
+3. Población objetivo y relevancia
+
+Niñas y niños de 4 a 12 años en México con dificultades para comunicarse verbalmente, así como sus padres, maestros y terapeutas. Es relevante porque la comunicación es un derecho básico: sin ella, el niño queda excluido en casa y en la escuela. Además, en esta etapa se desarrollan el lenguaje y la socialización, y una herramienta gratuita y en español reduce la barrera económica para las familias.
+
+4. Evidencias
+
+INEGI (2024): en México, 8.8 millones de personas de 5 años y más tienen alguna discapacidad, y el 9.2 % de ellas tiene dificultad para hablar o comunicarse. Solo 46 de cada 100 personas con discapacidad de 5 a 29 años asisten a la escuela, frente a 60 de cada 100 sin discapacidad.
+Fuente: https://www.inegi.org.mx/contenidos/saladeprensa/aproposito/2024/EAP_PCD24.pdf
+Gaceta UNAM: según el primer estudio de prevalencia en el país, realizado en León, Guanajuato, aproximadamente 1 de cada 115 niños en México tiene autismo, alrededor de 400 mil casos. La misma nota señala, con datos de la ONU, que más de la mitad de las personas con discapacidad que necesitan tecnologías de apoyo no pueden obtenerlas.
+Fuente: https://www.gaceta.unam.mx/autismo-reto-para-la-salud-publica-y-para-la-inclusion/
+Lo que vimos en persona: la semana pasada fui (Mateo Cosulich) a una escuela para niños con autismo. Platiqué con ellos, trate de conversar con ellos y traté de comunicarme con los niños, y después presentamos un proyecto con una idea para ayudarlos. Ahí me di cuenta de que muchos papás no tienen una forma clara de comunicarse con sus hijos y que eso les cuesta mucho trabajo. De ahí salió la idea de Mi Voz. Además, hace cinco semanas mis compañeros fueron a una escuela para niños con síndrome de Down y vieron que algo así también les podría ayudar.
+
+5. Roles iniciales del equipo
+
+Rol	Integrante
+Product Owner (PO)	Mateo Cosulich
+Líder Técnico	Carlos Hurtado
+Desarrollador UI	Mateo Sánchez
+Desarrollador de Datos/API	Luis Ángel
+QA / Analista de Pruebas	Mateo Cosulich
